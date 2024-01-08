@@ -37,7 +37,6 @@
   color: #F00;
   text-align: center;
   font-size: 88px;
-  font-style: normal;
   font-weight: 700;
 }
 .font-2>p{
@@ -66,9 +65,10 @@
   padding: 100px;
   justify-content: space-between;
   background-size: auto;
+  
 }
 .section-text{
-  padding-left: 128px;
+  padding-left: 120px;
   padding-top: 128px;
 
 }
@@ -95,10 +95,26 @@
 .section-text{
   color: #FFF;
   font-family: Merriweather;
-  font-size: 30px;
-  letter-spacing: 7.04px;
-  width: 642px;
+  font-size: 15px;
+  width: 500px;
 }
+
+.sec-txt{
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px;
+}
+.txt-title{
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 15px;
+  font-weight: 300px;
+  line-height: 20px;
+  width: 697px;
+}
+
 .btn{
   color: #d60909;
   text-align: center;
@@ -132,12 +148,37 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 175% */
+  line-height: 56px;
   text-transform: capitalize;
 }
 .about-title{
   width: 1320px;
   height: 482px;
   margin: 0 auto;
-  padding-bottom: 400px
+  background-color: ;
+  background-position: center;
+  padding-top: 100px;
+  background: linear-gradient(
+    to bottom,pink,white
+  );
+}
+.btn{
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #F00;
+}
+
+  .btn-txt{
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
